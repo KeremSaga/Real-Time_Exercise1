@@ -1,0 +1,37 @@
+# General
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.out
+*.o
+*.so
+*.a
+
+# C Specific
+*.exe
+*.dSYM/
+*.stackdump
+*.gcda
+*.gcno
+*.gcov
+*.elf
+
+# Go Specific
+*.exe
+*.test
+*.mod
+*.sum
+vendor/
+*.out
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
