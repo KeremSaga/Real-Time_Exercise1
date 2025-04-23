@@ -2,7 +2,7 @@
 
 package main
 
-// 3 DONE 4 NOT DONE
+// DONE
 
 import (
     . "fmt"
