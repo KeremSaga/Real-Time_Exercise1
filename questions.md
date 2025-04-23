@@ -25,6 +25,6 @@ Does creating concurrent programs make the programmer's life easier? Harder? May
 > *Your answer here*
 
 What do you think is best - *shared variables* or *message passing*?
-> *Both have their pros and cons. In an optimal scenario shared variables is better/best since if the concurrancy issues are handled the operation gets done faster. But this bit, concurrancy struggles, is the con of shared variables, thus making message passing better if the system doesn't require to be "real-time"/fast. Fast is a relative term, but so be it..*
+> *Both have their pros and cons. In an optimal scenario shared variables is better/best since if the concurrancy issues are handled the operation gets done faster. But this bit, concurrancy struggles, is the con of shared variables, thus making message passing better if the system doesn't require to be hard real-time fast, meaning the time constraints for the system response allows for massage passing.*
 
 

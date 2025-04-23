@@ -2,6 +2,8 @@
 
 package main
 
+// DONE
+
 import (
     . "fmt"
     "runtime"
@@ -38,8 +40,9 @@ func main() {
 	go incrementing()
     go decrementing()
 
-    // We have no direct way to wait for the completion of a goroutine (without additional synchronization of some sort)
-    // We will do it properly with channels soon. For now: Sleep.
+    // We have no direct way to wait for the completion of a goroutine
+    // (without additional synchronization of some sort)
+    //  We will do it properly with channels soon. For now: Sleep.
     time.Sleep(500*time.Millisecond)
     Println("The magic number is:", i)
 }
