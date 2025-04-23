@@ -16,7 +16,7 @@ What is the difference between a *race condition* and a *data race*?
 ### Engineering
 
 Why would we use multiple threads? What kinds of problems do threads solve?
-> *Your answer here*
+> *If you want to do something(s) at the same time, you need to use threads.*
 
 Some languages support "fibers" (sometimes called "green threads") or "coroutines"? What are they, and why would we rather use them over threads?
 > *Your answer here*

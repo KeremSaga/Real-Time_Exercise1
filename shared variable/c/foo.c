@@ -26,7 +26,7 @@ void* incrementingThreadFunction(){
 
 void* decrementingThreadFunction(){
     // TODO: decrement i 1_000_000 times
-    for (int j = 0; j < 1000001; j++) {
+    for (int j = 0; j < 1000005; j++) {
         pthread_mutex_lock(&mutex);
         i--;
         pthread_mutex_unlock(&mutex);
